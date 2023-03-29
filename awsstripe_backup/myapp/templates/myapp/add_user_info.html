@@ -1,0 +1,83 @@
+<!-- <form method="POST" action="{% url 'add-user-info' %}">
+    {% csrf_token %}
+    <input type="text" name="skypeid">
+    <input type="file" name="userimages">
+    <button type="submit" class="btn btn-primary" name="button">
+        送信
+    </button>
+</form> -->
+
+
+
+<html>
+    <head>
+        <title>アップロード</title>
+    </head>
+    <body>
+        <!-- <h1>upload.html</h1>
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">アップロードform</button>
+          </form>
+
+          <h1>userform.html</h1>
+          <form method="POST" enctype="multipart/form-data">
+              {% csrf_token %}
+              {{ userform.as_p }}
+              <button type="submit">アップロードuserform</button>
+            </form>
+ -->
+
+            <h1>upload.userform</h1>
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                {{ userform.as_p }}
+                <button type="submit">アップロードuserform</button>
+            </form>
+
+
+
+<!-- 
+            <p>都道府県：<select name="pref" form="example">
+                <option value="Tokyo">Tokyo</option>
+                <option value="Nagoya">Nagoya</option>
+                <option value="Osaka">Osaka</option>
+                <option value="Atami">Atami</option>
+                </select>
+            </p>
+
+            <form action="{% url 'add-user-weather-info' %}" method="post" action="example.cgi" id="example">
+                {% csrf_token %}
+                <p><input type="submit" value="送信する"></p>
+            </form> -->
+
+
+            <h1>OpenWeatherPlace</h1>
+            <form action="{% url 'add-user-weather-info' %}" method="POST">
+                {% csrf_token %}
+                <select id="weatherplace" name="weatherplace">
+                    <option>Tokyo</option>
+                    <option>Atami</option>
+                    <option>Nagoya</option>
+                    <option>Osaka</option>
+                </select>
+                <button type="submit">アップロードOpenWeatherPlace</button>
+            </form>
+
+            <h1>GroupName</h1>
+            <form action="{% url 'add-group-name-info' %}" method="POST">
+                {% csrf_token %}
+                <input type="text" name="groupname">
+                <button type="submit">アップロードgroupname</button>
+            </form>
+
+            <h1>GroupUser</h1>
+            <form action="{% url 'add-group-user-info' %}" method="POST">
+                {% csrf_token %}
+                <input type="text" name="groupname">
+                <button type="submit">アップロードGroupUser</button>
+            </form>
+    </body>
+</html>
