@@ -17,7 +17,6 @@ body{
     display: none;
 }
 
-
 .top-logo-outer{
     
     height: 7vh;
@@ -25,7 +24,7 @@ body{
 }
 
 .yazaki_logo{
-    margin-top: 1.2vh;
+    margin-top: 2vh;
     margin-right: 1.2vh;
     float: right;
 
@@ -36,7 +35,7 @@ body{
 }
 
 .top-datetime-outer{
-    height: 10vh;
+    height: 12vh;
     background: #f8a5a5;
 }
 
