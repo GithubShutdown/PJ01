@@ -1,17 +1,42 @@
 
 *{
     color: #ff0000;
+    margin: 0;
 }
 
 body{
+    margin: 0;
     width: 100%;
     height: 100%;
     background: #ffff11;
     overflow: hidden;
 }
 
+.load_static{
+    display: none;
+}
+
 #clock{
     color: #424242;
     font-size: 5rem;
     font-weight: bold;
+}
+
+
+
+.top-logo-outer{
+    
+    height: 5vh;
+    background: #fad7d9;
+}
+
+.yazaki_logo{
+    margin-top: 1.2vh;
+    margin-right: 1.2vh;
+    float: right;
+
+}
+
+.yazaki_logo img{
+    width: 30vw;
 }
