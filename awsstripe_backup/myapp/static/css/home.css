@@ -2,6 +2,7 @@
 *{
     color: #ff0000;
     margin: 0;
+    font-family: "Yu Gothic UI", "Arial"
 }
 
 body{
@@ -16,17 +17,10 @@ body{
     display: none;
 }
 
-#clock{
-    color: #424242;
-    font-size: 5rem;
-    font-weight: bold;
-}
-
-
 
 .top-logo-outer{
     
-    height: 5vh;
+    height: 7vh;
     background: #fad7d9;
 }
 
@@ -39,4 +33,36 @@ body{
 
 .yazaki_logo img{
     width: 30vw;
+}
+
+.top-datetime-outer{
+    height: 10vh;
+    background: #f8a5a5;
+}
+
+.top-left-date{
+    float: left;
+    width: 55%;
+    height: 60%;
+    margin-top: 3.2vh;
+    background: #f8a5a5;
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right-time{
+    float: left;
+    width: 45%;
+    height: 100%;
+    background: #f8a5a5;
+    color: #ffffff;
+    font-size: 7rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -20,7 +20,18 @@
     </div>
   </div>
 
-  <div id="clock"> </div>
+  <div class="top-datetime-outer">
+    
+    <div id="date" class="top-left-date"> </div>
+    <div id="clock" class="top-right-time"> </div>
+
+  </div>
+
+
+
+
+
+  
 
 
 </body>
@@ -31,22 +42,27 @@
   // [時刻表示]
   // ###############################################
   
-  var Target = document.getElementById("clock");
+  var clockTarget = document.getElementById("clock");
+  var dateTarget = document.getElementById("date");
 
   function clock() {
       var time = new Date();
+      var years = time.getFullYear();
+      var month = time.getMonth();
+      var date = time.getDate();
       var hours = time.getHours();
       var minutes = time.getMinutes();
       var seconds = time.getSeconds();
       
-      Target.innerText = 
-      `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
+      dateTarget.innerText = `${years}.${month < 10 ? `0${month+1}` : month}.${date}`;
+      clockTarget.innerText = `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
 
   }
   clock();
   setInterval(clock, 1000); // 実行 ： 1秒
 
   // ###############################################
+
 </script>
 
 
