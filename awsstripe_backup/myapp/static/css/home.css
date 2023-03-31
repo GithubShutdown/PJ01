@@ -71,3 +71,44 @@ body{
     height: 62vh;
     background: #ffffff;
 }
+
+.middle-top-call-outer{
+    width: 95vw;
+    height: 25vh;
+    background:rgba(25, 25, 25, 0.1);
+    margin: 0 auto;
+    transform: translateY(1.5vh);
+    border-radius: 5px;
+}
+
+.middle-top-call-outer:active{
+    background:rgba(255, 0, 0, 0.5);
+}
+
+.middle-left-logo-outer{
+    width: 30vw;
+    height: 70%;
+    background: #f8a5a5;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(10%, -50%);
+
+
+}
+
+/* .call_logo{
+    position: relative;
+} */
+
+.call_logo img{
+    
+    width: 22.5vw;
+    height: 12.5vh;
+    display: block;
+    margin: auto;
+    transform: translateY(2.5vh);
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
