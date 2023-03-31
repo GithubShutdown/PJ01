@@ -221,6 +221,9 @@ body{
 }
 
 .calendar_logo img{
-    width: 17rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    margin: auto;
+    transform: translateY(1vh);
 }
