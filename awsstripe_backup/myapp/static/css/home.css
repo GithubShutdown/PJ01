@@ -17,8 +17,8 @@ body{
     display: none;
 }
 
+/* Top */
 .top-logo-outer{
-    
     height: 7vh;
     background: #fad7d9;
 }
@@ -64,4 +64,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Middle */ 
+.middle-main-outer{
+    height: 62vh;
+    background: #ffffff;
 }
