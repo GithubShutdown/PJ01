@@ -86,34 +86,29 @@ body{
 }
 
 .middle-left-logo-outer{
-    /* width: 27.5vw;
-    height: 70%; */
-
-    width: 12rem;
-    height: 12rem;
-
-    background: #f8a5a5;
+    width: 13rem;
+    height: 13rem;
+    background:rgb(248, 177, 177);
     border-radius: 100%;
     position: absolute;
     top: 50%;
-    transform: translate(10%, -50%);
-
-
+    transform: translate(2rem, -50%);
 }
 
-/* .call_logo{
+.middle-left-logo-inner{
+    width: 11rem;
+    height: 11rem;
+    background:rgba(255, 230, 230, 0.8);
+    border-radius: 100%;
     position: relative;
-} */
+    top: 50%;
+    transform: translate(1rem, -50%);
+}
 
 .call_logo img{
-    
-
     width: 9rem;
     height: 9rem;
     display: block;
     margin: auto;
-    transform: translateY(2vh);
-    
-    /* justify-content: center; */
-    /* align-items: center; */
+    transform: translateY(1.2vh);
 }
