@@ -86,8 +86,12 @@ body{
 }
 
 .middle-left-logo-outer{
-    width: 30vw;
-    height: 70%;
+    /* width: 27.5vw;
+    height: 70%; */
+
+    width: 12rem;
+    height: 12rem;
+
     background: #f8a5a5;
     border-radius: 100%;
     position: absolute;
@@ -103,11 +107,12 @@ body{
 
 .call_logo img{
     
-    width: 22.5vw;
-    height: 12.5vh;
+
+    width: 9rem;
+    height: 9rem;
     display: block;
     margin: auto;
-    transform: translateY(2.5vh);
+    transform: translateY(2vh);
     
     /* justify-content: center; */
     /* align-items: center; */
