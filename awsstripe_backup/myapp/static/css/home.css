@@ -72,9 +72,10 @@ body{
     background: #ffffff;
 }
 
+/* Middle Top */ 
 .middle-top-call-outer{
     width: 95vw;
-    height: 25vh;
+    height: 22.5vh;
     background:rgba(25, 25, 25, 0.1);
     margin: 0 auto;
     transform: translateY(1.5vh);
@@ -122,9 +123,9 @@ body{
 
 .middle-right-top-maintitle{
     position: relative;
-    height: 7vh;
+    height: vh;
     background:rgba(255, 208, 0, 0);
-    transform: translate(0, 7vh);
+    transform: translate(0, 5.5vh);
 }
 
 .middle-right-top-maintitle h1{
@@ -137,11 +138,22 @@ body{
     position: relative;
     height: 7vh;
     background:rgba(255, 0, 0, 0);
-    transform: translate(0, 7vh);
+    transform: translate(0, 5.5vh);
 }
 
 .middle-right-top-subtitle h2{
     color: #858585;
     font-size: 2.2rem;
     font-weight: bold;
+}
+
+
+/* Middle Bottom */ 
+.middle-bottom-schedule-outer{
+    width: 95vw;
+    height: 35vh;
+    background:rgba(25, 25, 25, 0.1);
+    margin: 0 auto;
+    border-radius: 5px;
+    transform: translate(0, 3vh);
 }
