@@ -90,6 +90,21 @@
 
   </div>
 
+  <!-- Footer -->
+  <div class="bottom-footer-outer">
+    
+    <!-- 紙ふうせん文字 -->
+    <div class="moji_logo">
+      <img src="../../../images/logo_kamihusen.png" alt="">
+    </div>
+
+    <!-- 紙ふうせん建物 -->
+    <div class="tatemono_logo">
+      <img src="../../../images/background_kamihusen.png" alt="">
+    </div>
+
+  </div>
+
   
 
 
@@ -119,7 +134,7 @@
       var minutes = time.getMinutes();
       var seconds = time.getSeconds();
       
-      dateTarget.innerText = `${years}.${month < 10 ? `0${month+1}` : month}.${date}`;
+      dateTarget.innerText = `${years}.${month < 10 ? `0${month+1}` : month}.${date < 10 ? `0${date}` : date}`;
       clockTarget.innerText = `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
 
   }

@@ -9,7 +9,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
-    background: #ffff11;
+    background: #ffffff;
     overflow: hidden;
 }
 
@@ -82,8 +82,12 @@ body{
     border-radius: 5px;
 }
 
-.middle-top-call-outer:active{
+/* .middle-top-call-outer:active{
     background:rgba(255, 0, 0, 0.5);
+} */
+
+.middle-top-call-outer:hover{
+    background:rgba(0, 255, 0, 0.5);
 }
 
 .middle-left-logo-outer{
@@ -246,4 +250,42 @@ body{
     top: 50%;
     transform: translate(0, -50%);
     
+}
+
+.bottom-footer-outer{
+    height: 19vh;
+    background:rgba(25, 25, 25, 0.2);
+}
+
+/* Bottom Footer */ 
+.moji_logo{
+    position: relative;
+    float: left;
+    width: 35vw;
+    height: 10vh;
+    top: 50%;
+    transform: translate(20%, -55%);
+    /* background: #ff1111; */
+}
+
+.moji_logo img{
+    position: relative;
+    width: 20rem;
+    height: 12rem;
+    display: block;
+    margin: auto;
+    transform: translate(-10%, -10%);
+}
+
+.tatemono_logo{
+    position: relative;
+    float: right;
+    width: 65vw;
+    height: 100%;
+}
+
+.tatemono_logo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
