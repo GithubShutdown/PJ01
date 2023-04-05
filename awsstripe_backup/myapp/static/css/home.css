@@ -299,7 +299,7 @@ body{
 }
 
 .bottom-footer-outer{
-    height: 15vh;
+    height: 17vh;
     background:rgba(25, 25, 25, 0.2);
     /* background:#ff1111; */
 }
@@ -311,7 +311,7 @@ body{
     width: 35vw;
     height: 10vh;
     top: 50%;
-    transform: translate(20%, -80%);
+    transform: translate(20%, -90%);
     /* background: #ff1111; */
 }
 
@@ -348,7 +348,7 @@ body{
     left:0;
     right:0;
     bottom:0;
-    display:none;
+    display:flex;
     padding:15px;
   }
 
