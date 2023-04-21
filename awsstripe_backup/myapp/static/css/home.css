@@ -15,10 +15,12 @@ body{
     display: none;
 }
 
-/* Top */
+/* Top */   
 .top-logo-outer{
     height: 7vh;
-    background: #fad7d9;
+    /* background: #fad7d9; */
+    /* background: #efd8ad; */
+    background:rgba(25, 25, 25, 0.1);
 }
 
 .yazaki_logo{
@@ -34,7 +36,8 @@ body{
 
 .top-datetime-outer{
     height: 12vh;
-    background: #f8a5a5;
+    /* background: #f8a5a5; */
+    background: #efc06b;
 }
 
 .top-left-date{
@@ -42,7 +45,8 @@ body{
     width: 55%;
     height: 60%;
     margin-top: 3.2vh;
-    background: #f8a5a5;
+    /* background: #f8a5a5; */
+    background: #efc06b;
     color: #ffffff;
     font-size: 4rem;
     font-weight: bold;
@@ -55,7 +59,8 @@ body{
     float: left;
     width: 45%;
     height: 100%;
-    background: #f8a5a5;
+    /* background: #f8a5a5; */
+    background: #efc06b;
     color: #ffffff;
     font-size: 7rem;
     font-weight: bold;
@@ -95,7 +100,8 @@ body{
 .middle-left-logo-outer{
     width: 13rem;
     height: 13rem;
-    background:rgb(248, 177, 177);
+    /* background:rgb(248, 177, 177); */
+    background:rgba(121, 175, 230, 0.5);
     border-radius: 100%;
     position: absolute;
     top: 50%;
@@ -105,7 +111,8 @@ body{
 .middle-left-logo-inner{
     width: 11rem;
     height: 11rem;
-    background:rgba(255, 230, 230, 0.8);
+    /* background:rgba(255, 230, 230, 0.8); */
+    background:rgba(228, 232, 244, 0.5);
     border-radius: 100%;
     position: relative;
     top: 50%;
@@ -301,7 +308,8 @@ body{
 
 .bottom-footer-outer{
     height: 17vh;
-    background:rgba(25, 25, 25, 0.2);
+    /* background:rgba(25, 25, 25, 0.2); */
+    background:rgba(25, 25, 25, 0.1);
     /* background:#ff1111; */
 }
 
